@@ -14,7 +14,7 @@
   console.log(fruit);
 
 // lista frutta
-const listFruit = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'limone', 'fragola' ];
+const listFruit = ['banana', 'mela', 'pera', 'ciliegia','cocomero', 'arancia', 'mandarino', 'limone', 'fragola' ];
  console.log(listFruit);
 
 
