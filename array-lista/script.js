@@ -34,3 +34,10 @@ if (cocomero === true) {
 } else {
     alert('Oh no, devo uscire a comprare il cocomero!') 
 };
+
+let pesca = prompt('aggiungi la pesca al frigo') ;
+console.log(pesca);
+
+
+listFruit.push(pesca);
+console.log(listFruit);
