@@ -14,7 +14,7 @@
   console.log(fruit);
 
 // lista frutta
-const listFruit = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'cocomero', 'limone', 'fragola' ];
+const listFruit = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'limone', 'fragola' ];
  console.log(listFruit);
 
 
@@ -35,9 +35,10 @@ if (cocomero === true) {
     alert('Oh no, devo uscire a comprare il cocomero!') 
 };
 
-let pesca = prompt('aggiungi la pesca al frigo') ;
+let pesca = prompt('aggiungi un frutto al frigo') ;
 console.log(pesca);
 
 
 listFruit.push(pesca);
+alert('hai aggiunto il frutto al frigo')
 console.log(listFruit);
