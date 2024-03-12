@@ -17,3 +17,20 @@
 const listFruit = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'cocomero', 'limone', 'fragola' ];
  console.log(listFruit);
 
+
+
+ let cocomero = false; 
+for (let i = 0; i < listFruit.length; i++) { 
+    let  item = listFruit[i]
+
+    if (fruit === item) { 
+
+        cocomero = true; 
+    }
+};
+
+if (cocomero === true) { 
+    alert('Trovato! Devo solo preparare il cocktail')
+} else {
+    alert('Oh no, devo uscire a comprare il cocomero!') 
+};
