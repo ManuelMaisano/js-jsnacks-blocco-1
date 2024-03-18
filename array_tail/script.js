@@ -2,24 +2,17 @@
 //(compresi nell'intervallo da 1 a 100) per quanti sono gli elementi da inserire.
 //Stampiamo poi gli ultimi 5 elementi dell'Array
 
-let userNumber = parseInt(prompt("Quanti elementi vuoi inserire nella lista?"));
+let usernumber = parseInt(prompt("Inserire quanti numeri dovrà contenere l'array"));
 
-// we continue by creating the empty list
-let userList = [
-];
+let emptyArray =[];
 
-// we do a for loop defined by the user prompt
-for (let i = 0; i <= userNumber; i++) {
-    //console.log(i,'index');
-    let random =  getRndInteger(1,100);
-    console.log(random,'random');
-    userList.push(random);
-};
-
-let userEndList = parseInt(prompt("quanti elementi vuoi selezionare dalla fine?"));
-let newArray = userList.slice(-userEndList);
-
-if (isNaN(userEndList)) {
-    console.log(userEndList);
+for (let i = 0; i < usernumber; i++){
+    emptyArray.push(getRndInteger(1, 100))
 }
-console.log(newArray);
+if (usernumber < 5){
+    console.log('Devi inserire almeno 5 numeri')
+ }  else{ 
+    let last5items = [emptyArray[emptyArray.length -1], emptyArray[emptyArray.length -2],emptyArray[emptyArray.length -3],emptyArray[emptyArray.length -4], emptyArray[emptyArray.length -5]]
+    console.log(last5items, 'Questi sono gli ultimi 5 numeri dell\'array') 
+ }
+console.log(emptyArray, 'Questo è l\'array completo');
